@@ -15,6 +15,7 @@
 		A7F5A94325D9517E007CAF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F5A94125D9517E007CAF99 /* LaunchScreen.storyboard */; };
 		A7F5A94E25D9517E007CAF99 /* MyTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5A94D25D9517E007CAF99 /* MyTableViewTests.swift */; };
 		A7F5A95925D9517E007CAF99 /* MyTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5A95825D9517E007CAF99 /* MyTableViewUITests.swift */; };
+		A7F5A96A25D9566E007CAF99 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F5A96925D9566E007CAF99 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A7F5A95425D9517E007CAF99 /* MyTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F5A95825D9517E007CAF99 /* MyTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewUITests.swift; sourceTree = "<group>"; };
 		A7F5A95A25D9517E007CAF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F5A96925D9566E007CAF99 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A7F5A93825D9517A007CAF99 /* SceneDelegate.swift */,
 				A7F5A93A25D9517A007CAF99 /* ViewController.swift */,
 				A7F5A93C25D9517A007CAF99 /* Main.storyboard */,
+				A7F5A96925D9566E007CAF99 /* TableCell.swift */,
 				A7F5A93F25D9517E007CAF99 /* Assets.xcassets */,
 				A7F5A94125D9517E007CAF99 /* LaunchScreen.storyboard */,
 				A7F5A94425D9517E007CAF99 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				A7F5A93B25D9517A007CAF99 /* ViewController.swift in Sources */,
 				A7F5A93725D9517A007CAF99 /* AppDelegate.swift in Sources */,
+				A7F5A96A25D9566E007CAF99 /* TableCell.swift in Sources */,
 				A7F5A93925D9517A007CAF99 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
