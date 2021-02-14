@@ -9,32 +9,27 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
-    @IBOutlet weak var tempLabel: UILabel!
- 
-    @IBOutlet weak var cityLabel: UILabel!
-    var array = ["one", "two", "tree", "four", "five", "six"]
-    var delegate: TableCell?
+    var restaurentNames = ["Burger", "Kitchen", "Bonsai", "Дастархан", "Индокитай","Балкан Гриль","Шерлок Холмс","Speak Easy","Morris Pub","Вкусные истории","Классик","Love&Life","Шок","Бочка"]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        cityLabel.text = "Moscow"
-        tempLabel.text = "14"
-        
-        
+
 
     }
 
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return array.count
+        return restaurentNames.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
-        cell?.textLabel?.text = array[indexPath.row]
+        cell?.textLabel?.text = restaurentNames[indexPath.row]
         
-        cell?.textLabel?.textColor = UIColor.red
+        cell?.imageView?.image = UIImage(named: restaurentNames[indexPath.row])
+        
         
         return cell!
         
